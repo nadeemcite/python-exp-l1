@@ -1,0 +1,20 @@
+given  dictionary
+
+dob = {
+    "date": 13,
+    "month": "feb",
+    "year": 1991
+}
+
+p = 0
+for i in dob.keys():
+    print(i)
+    p += 1
+
+but I also want to print thier index
+
+output should be
+
+0 - date
+1 - month
+2 - year

@@ -1,0 +1,12 @@
+Python uses snake case and camel case
+
+1. class name is capital camel case
+2. function name or a variable name is small snake_case
+3. constant is always capital snake_case
+
+
+MyOwnClass --> class name
+
+my_variable --> variable name or a function name
+
+MY_CONSTANT -->  constant name
