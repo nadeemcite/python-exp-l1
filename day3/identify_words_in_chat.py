@@ -21,13 +21,6 @@ class MyCustomBot(twitchio.Client): # MyCustomBot is a Bot
     async def event_ready(self):   # overriden so we do not call it
         print("Bot is ready")
 
-    async def event_reward_redeem(self, reward, user):
-        print(f'{user.display_name} redeemed {reward.title} ({reward.cost} points)')
-        
-        if reward.id == 'your_reward_id':
-            # do something when the specific reward is redeemed
-            pass
-
 o = MyCustomBot()
 o.run()
 
